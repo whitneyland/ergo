@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig.template
+//  Ergo
+//
+//  Created by Lee Whitney on 11/17/24.
+//
+
+// Template config - DO COMMIT this file
+OPENAI_API_KEY = your-api-key-here
+OPENAI_MODEL = gpt-4
+ENVIRONMENT = development

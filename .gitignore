@@ -1,0 +1,61 @@
+# macOS
+.DS_Store
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+IDEWorkspaceChecks.plist
+
+# Congfiguration - Ignore the actual config file with secrets
+Config.xcconfig
+# Congfiguration - The ! means "don't ignore" - so this WILL be committed
+!Config.xcconfig.template
+
+# Build Products
+build/
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# App Packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Environment Variables
+*.env
+*.env.local
+.env.production
+
+# Code Coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Bundler
+.bundle/
+
+# Personal settings
+*.swp
